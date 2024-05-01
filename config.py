@@ -23,8 +23,8 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zᴇᴅᴢᴇ ✘")
 
 # Your User ID.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5301800943").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5301800943").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "7050741527").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "655594746 6900132473 7030014736").split()))
 
 # Fill your group and channel username (without @)
 # If your group and channel is private then fill like this:-  +GepTJkDUaiA5NmRl  , except (https://t.me/)
@@ -38,15 +38,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 # For customized or modified Repository
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/team-katil/zedzemusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Attutele123/zedzemusicAttu")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/katil_bots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/katilsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/TeamHyperNetworks")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Team_Hypers_Networks")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "5000"))
@@ -75,8 +75,8 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "e60cd7a829cc4a80804553a20c216379")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9d6d953a45b47aea4f56a0acb45ece2")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "300"))
